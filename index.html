@@ -4,28 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Risky Albers</title>
-    
-        <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4; /* Latar belakang seluruh halaman */
+            color: #333;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 15px;
+        }
+        nav a:hover {
+            background-color: #007BFF;
+            border-radius: 5px;
+        }
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        #hobi, #tentang, #kontak {
+            margin-top: 20px;
+        }
+        .copyright {
+            background-color: #007BFF; /* Latar belakang biru untuk copyright */
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Risky albers</h1>
-
-<body>
-    <nav>
-        <ul>
-        <a href="#beranda">Beranda</a>
-        <a href="#tentang">Tentang Saya</a>
-        <a href="#hobi">Hobi</a>
-        <a href="#kontak">Kontak</a>
-        </ul>
-    </nav>
+        <h1>Risky Albers</h1>
+        <nav>
+            <ul>
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#tentang">Tentang Saya</a></li>
+                <li><a href="#hobi">Hobi</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
     </header>
 
-        <main id="Beranda">
-        <article>
+    <main id="beranda">
+        <section>
             <h1>Risky Albers</h1>
-            <img src="Foto iki.jpg" width="100" px heigth="75"pxalt="Foto Risky Albers">
+            <img src="Foto_iki.jpg" width="100" height="75" alt="Foto Risky Albers">
         </section>
 
         <section id="tentang">
@@ -38,35 +84,15 @@
             <p>Hobi saya adalah bermain gitar dan bermain sepak bola atau futsal, karena saya sudah suka menonton pertandingan bola sejak saya kecil.</p>
         </section>
 
-        <section id="kontak" class="contact">
+        <section id="kontak">
             <h2>Kontak</h2>
             <p>Email: riskyalbers5@gmail.com</p>
             <p>Nomor Handphone: 081262878101</p>
         </section>
-    </div>
-  <title>Copyright</title>
-  <style>
-    body {
-      background-color: #007BFF; /* Warna biru */
-      color: white;
-      font-family: Arial, sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-    }
-    .copyright {
-      text-align: center;
-    }
-    .copyright p {
-      margin: 0;
-    }
-  </style>
-</head>
-<body>
-  <div class="copyright">
-    <p>&copy; 2024 Risky Albers</p>
-  </div>
+    </main>
+
+    <footer class="copyright">
+        <p>&copy; 2024 Risky Albers</p>
+    </footer>
 </body>
 </html>
